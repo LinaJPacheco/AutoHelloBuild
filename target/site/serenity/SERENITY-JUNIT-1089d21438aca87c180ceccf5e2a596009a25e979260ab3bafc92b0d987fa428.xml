@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Busqueda en google" skipped="0" tests="1" time="9.08" timestamp="2022-11-23 03:19:46"><testcase name="Busqueda de frase existente en google"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Busqueda en google" skipped="0" tests="2" time="13.34" timestamp="2022-11-23 03:50:04"><testcase name="Busqueda de frase existente en google"/><testcase name="Busqueda de frase inexistente en google"/></testsuite>

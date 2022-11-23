@@ -1,5 +1,6 @@
 #Author: Lina Pacheco
   Feature: Busqueda en google
+@BusquedaGoogle
 
     @BusquedaExitosa
   Scenario Outline: Busqueda de frase existente en google
@@ -10,7 +11,7 @@
   Examples:
     |frase|
     |Cristiano Ronaldo       |
-
+    @BusquedaGoogle
       @BusquedaError
     Scenario Outline: Busqueda de frase inexistente en google
         Given que Lina quiere realizar una busqueda en google

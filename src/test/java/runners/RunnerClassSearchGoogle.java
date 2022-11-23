@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/searchgoogle.feature",
-        tags = "@BusquedaError",
+        tags = "@BusquedaGoogle",
         glue = "stepdefinitions",
         snippets = SnippetType.CAMELCASE )
 public class RunnerClassSearchGoogle {
