@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Busqueda en google" skipped="0" tests="1" time="21.96" timestamp="2022-11-23 02:27:01"><testcase name="Busqueda de palabra existente en google"><error message="Expected condition failed: waiting for By.xpath: //*[@id=result-stats]/text() to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'DESKTOP-J4IQRR2', ip: '192.168.1.77', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_342'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for By.xpath: //*[@id=result-stats]/text() to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-J4IQRR2', ip: '192.168.1.77', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_342'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //*[@id=result-stats]/text() to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-J4IQRR2', ip: '192.168.1.77', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_342'
+Driver info: driver.version: unknown&#13;
+stepdefinitions.SearchGoogleSetps.linaDebeVerLaCantidadDeResultados(SearchGoogleSetps.java:33)&#13;
+✽.Lina debe ver la cantidad de resultados(src/test/resources/features/searchgoogle.feature:7)&#13;
+</system-err></testcase></testsuite>
